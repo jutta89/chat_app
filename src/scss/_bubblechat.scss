@@ -1,0 +1,85 @@
+/* ------------------------------------------------- */
+// BUBBLE CHAT
+/* ------------------------------------------------- */
+
+.bubble {
+    position: fixed;
+    bottom: 110px;
+    left: 200px;
+    z-index: 999;
+    width: 280px;
+    min-height: 110px;
+    border-radius: 25px;
+    background: $c-white;
+    box-shadow: 0 5px 13px 0 rgba(0,0,0,.2), 0 10px 25px 0 rgba(0,0,0,.25);
+    opacity: 1;
+    transition: opacity;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+    animation: bounce 0.5s forwards;
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 0.688em solid transparent;
+        border-top-color: $c-white;
+        border-bottom: 0;
+        border-left: 0;
+        margin-left: -0.344em;
+        margin-bottom: -0.687em;
+    }
+    .buttons-hld {
+        margin-top: 20px;
+    }
+    .site-btn {
+        min-width: 100%;
+    }
+}
+
+.bubble-chat__img-hld {
+    width: 100px;
+    height: 100px;
+    margin: 1em auto;
+    border-radius: 50%;
+    background: #d1d1d1;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.bubble-chat__letter-hld {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    margin: 1em auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #f1f1f1;
+    object-fit: cover;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.12);
+    span {
+        color: $c-accent-1;
+        font-size: 0;
+        line-height: 1;
+        &:first-letter {
+            font-size: 40px;
+            font-weight: 700;
+        }
+    }
+}
+
+.ReactBubble {
+    position: relative;
+}

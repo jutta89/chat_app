@@ -1,0 +1,101 @@
+/* ----------------------------------- */
+// TYPO
+/* ----------------------------------- */
+
+h1, h2, h3 {
+    &:not(.t-title-gray) {
+        background: -webkit-linear-gradient($c-accent-2, $c-accent-1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+h4, h5, h6 {
+    color: $c-gray-light;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.title  {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+h1, 
+.t-page-title {
+    animation: bounceInLeft 1s;
+}
+
+.t-title-big {
+    font-size: 68px;
+    margin-bottom: 30px;
+    background: -webkit-linear-gradient($c-accent-2, $c-accent-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: bounceInLeft 1s;
+}
+
+.t-title-dark {
+    background: -webkit-linear-gradient($c-gray-light, #292d4f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.t-title-gray {
+    color: $c-gray-light;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    animation: bounceInLeft 1s forwards;
+}
+
+.t-accent {
+    color: $c-accent-1;
+}
+
+.t-centered {
+    text-align: center;
+}
+.t-italic {
+    font-style: italic;
+}
+
+a {
+    color: $c-accent-1;
+    text-decoration: none !important;
+    transition: color .2s ease;
+
+    &:hover, &:focus {
+        color: $c-black;
+    }
+}
+
+.deep-purple-text {
+    color: #313EF5 !important;
+}
+
+ul {
+    li {
+        list-style-type: none !important;
+    }
+}
+
+
+.lead {
+    &.small {
+        font-size: 1rem;
+    }
+
+    &.accent {
+        color: $c-accent-1;
+    }
+
+    &.medium {
+        font-size: 1.8rem;
+    }
+}
+

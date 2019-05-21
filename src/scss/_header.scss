@@ -1,0 +1,86 @@
+/* ------------------------------------------------- */
+// HEADER
+/* ------------------------------------------------- */
+
+.navbar {
+    z-index: 10;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    animation: fadeInDown .7s forwards;
+    &.scrolling-navbar {
+        &.top-nav-collapse {
+            z-index: 999;
+            padding: 15px 15px 15px 50px;
+            background-image: linear-gradient(to right, $c-accent-2, $c-accent-1 100%);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            .site-btn--logout {
+                background-image: linear-gradient(to right, $c-accent-3 0%, $c-accent-4 51%, $c-accent-3 100%);
+            }
+            .logo--scroll {
+                transform: translateX(-50px) translateY(-15px);
+            }
+            .nav-item {
+                margin-top: 0;
+                a {
+                    padding: 5px 25px;
+                }
+                .nav-item--logo {
+                    width: 50px;
+                    height: 38px;
+                }
+            }
+        }
+    }
+    .nav-item {
+        margin-top: -9px;
+        position: relative;
+        a {
+            color: #fff;
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 30px;
+            padding: 4px 20px;
+            transition: color .5s ease;
+            &:hover, &:focus {
+                color: #ddd;
+            }
+        }
+        .nav-item--logo {
+            width: 150px;
+            height: 100px;
+        }
+    }
+    .md-form {
+        margin-bottom: 0;
+    }
+    .header-img-off & {
+        height: 70px;
+        padding-top: 0;
+        padding-bottom: 0;
+        background-image: linear-gradient(to right, $c-accent-2, $c-accent-1 100%);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .badge {
+        position: absolute;
+        bottom: -1px;
+        right: 3px;
+    }
+}
+
+.logo--scroll {
+    padding: 0;
+    width: auto;
+    transform: translateX(-140px) translateY(-16px);
+    transition: transform .3s ease;
+}
+
+.fa.header-badge-ico {
+    padding: 0;
+    font-size: 10px !important;
+}
+

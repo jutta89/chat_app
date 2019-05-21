@@ -1,0 +1,300 @@
+/* ------------------------------------------------- */
+// FORM
+/* ------------------------------------------------- */
+
+form {
+    display: block;
+}
+
+.form-check {
+    width: 100%;
+    display: inline-block;
+    float: none;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+}
+
+input, select, textarea {
+    display: block;
+    min-width: 240px;
+    margin: 15px 0;
+    padding: 14px 15px;
+    border: 2px solid $c-border;
+    border-radius: 50px !important;
+    background: transparent;
+    outline: 0;
+    color: $c-gray-light;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-align: center;
+    transition: background ease .3s;
+    &:hover, &:focus {
+        color: $c-gray;
+        background: #E5E5E5;
+    }
+}
+
+textarea {
+    min-width: 250px;
+    margin: 0 auto;
+}
+
+input, select {
+    height: 49px;
+}
+
+input {
+    &.input__sex-change {
+        margin-top: 7px;
+    }
+}
+
+input[type="checkbox"], 
+input[type="radio"] {
+    width: 15px;
+    min-width: 15px;
+    height: 15px;
+    margin-top: 16px;
+    margin-left: -11px;
+    float: left;
+    z-index: 1;
+    &:focus {
+        outline: 0 !important;
+    }
+}
+
+select {
+    box-sizing: border-box;
+    padding: 10px 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    margin-top: 5px;
+    border-radius: 50px !important;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.form-control::placeholder {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 0 25px;
+    transition: color .5s ease;
+}
+
+.md-form input[type=text] {
+    border-bottom: 1px solid transparent;
+    &:hover, &:focus {
+        border-bottom: 1px solid transparent !important;
+    }
+}
+
+.form-inline {
+    .icon {
+        position: absolute;
+        right: 30px;
+        margin-top: -1px;
+        color: $c-white;
+    }
+}
+
+.form-search {
+    width: 100px !important;
+    min-width: 80px !important;
+    padding: 4px 40px 4px 1px !important;
+    &:hover, &:focus {
+        border-bottom: 1px solid transparent !important;
+    }
+}
+
+.form-log-in {
+    margin-bottom: 90px;
+}
+
+
+/////////////////////////////////////////////////
+// DATE PICKER
+/////////////////////////////////////////////////
+
+.react-date-picker {
+    display: flex;
+}
+
+.react-date-picker__button {
+    min-width: 240px;
+    height: 49px;
+    margin: 0 0 10px;
+    padding: 0;
+    border: 2px solid #E5E5E5;
+    border-radius: 50px;
+    background: transparent;
+    outline: 0;
+    color: #333;
+}
+
+.react-date-picker__button__input {
+    justify-content: center;
+}
+
+.react-calendar__tile {
+    min-width: 25px;
+    padding: 7px !important;
+    height: 30px !important;
+}
+
+.react-calendar__tile--active {
+    background: $c-accent-1;
+    color: white !important;
+}
+
+.react-date-picker__button__icon:enabled {
+    min-width: 20px;
+    padding-right: 20px;
+    box-shadow: none;
+    color: $c-accent-1;
+}
+
+.react-date-picker__button__input__input {
+    min-width: calc(5px + 0.54em);
+    height: auto;
+    position: relative;
+    padding: 0;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-align: center;
+
+}
+
+.react-calendar__tile,
+.react-calendar__navigation__label,
+.react-calendar__navigation__arrow {
+    color: #333;
+}
+
+.react-calendar__navigation__label,
+.react-calendar__navigation__arrow {
+    padding: 0;
+}
+
+.react-date-picker__calendar .react-calendar {
+    min-height: 300px;
+    border: none;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.react-date-picker__button__input__input,
+.react-date-picker__button__input__input:invalid {
+    // width: 25px !important;
+}
+
+.react-date-picker__button__input__input:invalid { 
+    background: rgba(83, 81, 81, 0.1);
+}
+
+
+.react-date-picker__calendar-button {
+    position: absolute;
+    left: 15px;
+    top: 1px;
+}
+
+
+/////////////////////////////////////////////////
+// MATERIAL DEFIGN EDITED
+/////////////////////////////////////////////////
+
+.md-form input[type=text], 
+.md-form input[type=password], 
+.md-form input[type=email], 
+.md-form input[type=url], 
+.md-form input[type=time], 
+.md-form input[type=date], 
+.md-form input[type=datetime-local], 
+.md-form input[type=tel], 
+.md-form input[type=number], 
+.md-form input[type=search-md], 
+.md-form input[type=search], 
+.md-form textarea.md-textarea {
+    max-height: 50px;
+    padding: 13px 40px;
+    border: 2px solid #E5E5E5;
+    background: transparent;
+    color: $c-gray-light;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    transition: background ease .3s;
+    &:hover, &:focus {
+        border-bottom: 2px solid #E5E5E5 !important;
+    }
+}
+
+.md-form textarea.md-textarea {
+    max-height: 600px;
+    resize: vertical;
+    padding-top: 17px;
+}
+
+.md-form label {
+    color: $c-gray-light;
+    transition: all .2s ease-out;
+}
+
+.md-form label.active {
+    transform: translateY(-7px);
+    top: 15px;
+}
+
+.md-form textarea ~ label.active {
+    top: 15px;
+}
+
+.modal-header {
+    padding: 1.5rem;
+}
+
+.modal-title {
+    font-weight: 600;
+}
+
+.md-form label {
+    top: calc(50% - 10px);
+    left: 60px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+.md-form .prefix {
+    top: calc(50% - 8px);
+    left: 50px;
+}
+
+// icon mail
+.fa-envelope {
+    font-size: 14px !important;
+}
+
+
+

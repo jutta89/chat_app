@@ -1,0 +1,26 @@
+/* ------------------------------------------------- */
+// FOOTER
+/* ------------------------------------------------- */
+
+.page-footer {
+    margin-top: 0 !important;
+    animation: fadeInUp .5s;
+
+    a {
+        transition: opacity .2s ease;
+
+        &:focus, &:hover {
+            opacity: .8;
+        }
+    }
+
+    a, p, li {
+        font-size: 1.4rem;
+        line-height: 2;
+    }
+
+    .fa {
+        font-size: 2.1rem !important;
+    }
+}
+

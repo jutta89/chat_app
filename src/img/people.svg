@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #c7c7c7;
+      }
+
+      .cls-2 {
+        fill: #c7c7c7;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_95" data-name="Group 95" transform="translate(-29 -394)">
+    <g id="btn_match">
+      <g id="Ellipse_175" data-name="Ellipse 175" class="cls-1" transform="translate(30 395)">
+        <circle class="cls-3" cx="25" cy="25" r="25"/>
+        <circle class="cls-4" cx="25" cy="25" r="25.5"/>
+      </g>
+      <g id="Group_60" data-name="Group 60" transform="translate(40 405)">
+        <g id="Group_33" data-name="Group 33" transform="translate(6.557)">
+          <path id="Path_64" data-name="Path 64" class="cls-2" d="M24.276,8.443a8.554,8.554,0,0,1-1.707,5.12,8.381,8.381,0,0,1-6.737,3.323A8.645,8.645,0,0,1,9.1,13.563a7.731,7.731,0,0,1-1.8-5.12,8.488,8.488,0,0,1,16.976,0Z" transform="translate(-7.3)"/>
+        </g>
+        <path id="Path_65" data-name="Path 65" class="cls-2" d="M0,28.394A8.012,8.012,0,0,1,7.994,20.4H22.006A8.012,8.012,0,0,1,30,28.394v1.168a.567.567,0,0,1-.629.629H.629" transform="translate(0 -2.077)"/>
+      </g>
+    </g>
+  </g>
+</svg>

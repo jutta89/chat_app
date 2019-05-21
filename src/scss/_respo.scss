@@ -1,0 +1,771 @@
+/* ------------------------------------------------- */
+// RESPO
+/* ------------------------------------------------- */
+
+@media all and (min-width: 1500px) {
+    body {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+    }
+    .lead {
+        font-size: 1.5rem;
+    }
+
+    .rcw-client, .rcw-response {
+        padding: 12px !important;
+    }
+
+    .rcw-message {
+        .rcw-avatar {
+            padding-top: 3px;
+        }
+    }
+
+    .rcw-message-text {
+        line-height: 1.4;
+    }
+
+    h4, h5, h6 {
+        line-height: 1.8;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    .card .card-body .card-text {
+        font-size: 1.6rem;
+        line-height: 1.8;
+    }
+    .content-panel__text {
+        font-size: 15px;
+    }
+
+    input, select, textarea {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    input, select {
+        height: 52px;
+    }
+
+    input[type="checkbox"], 
+    input[type="radio"] {
+        margin-top: 20px;
+    }
+
+    .react-date-picker__button__input__input:invalid {
+        margin-top: 15px;
+    }
+    .react-date-picker__calendar-button {
+        top: -1px;
+    }
+    .react-date-picker {
+        input::-webkit-textfield-decoration-container {
+            margin-top: -2px !important;
+        }
+    }
+    .react-date-picker__button__input__input:invalid {
+        height: 17px;
+    }
+
+    button {
+        font-size: 13px !important;
+        height: 51px !important;
+    }
+
+    .site-btn {
+        &:not(.site-btn--message-send) {
+            padding: 9px 30px 10px;
+        }
+        .couples-hld  & {
+            padding-right: 2.3rem;
+            padding-left: 2.3rem;
+        }
+    }
+
+    .site-btn--log-in {
+        padding-top: 11px;
+    }
+
+    .login-info-hld {
+        top: 35px;
+        left: -32px;
+    }
+    .login-info {
+        padding: 5px 0 3px;
+    }
+    .card-body {
+        padding: 2.5rem;
+    }
+    .card-body-message {
+        padding: 1.6rem 2.5rem;
+    }
+
+    .accordion__title {
+        padding: 30px 40px;
+    }
+
+    .site-btn.site-btn--settings-seved {
+        bottom: calc(100% + 16px);
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+
+    .md-form textarea ~ label.active {
+        top: 15px;
+    }
+
+    .content-left-hld .md-form textarea.md-textarea {
+        padding-top: 30px;
+    }
+
+    .fileContainer .chooseFileButton {
+        padding-top: 10px;
+    }
+
+    .site-btn--logout {
+        padding: 10px 30px;
+    }
+
+
+    .tab-list > div, 
+    .index__c-tab__list___1DJ8w > div {
+        width: 55px;
+        height: 54px;
+    }
+
+    .content-left__photo-hld {
+        width: 130px;
+        height: 130px;
+    }
+
+    .content-left__photo__letter {
+        margin-top: 8px;
+    }
+
+    .content-left__photo-hld:before {
+        width: 28px;
+        height: 28px;
+        left: 2px;
+        border: 4px solid $c-light;
+    }
+
+    .content-left-inner {
+        margin-top: 35px;
+    }
+
+    .site-btn--search .switch {
+        top: 16px;
+        left: 30px;
+        width: 110px;
+        height: 55px;
+    }
+    .site-btn--search .slider:before {
+        width: 47px;
+        height: 47px;
+    }
+    .site-btn.site-btn--search {
+        max-width: 460px;
+        height: 90px !important;
+        padding-left: 80px;
+        font-size: 20px !important;
+        input:checked + .slider:before {
+            transform: translateX(54px);
+        }
+        .switch-searching {
+            input + .slider:before {
+                transform: translateX(0px);
+            }
+        }
+    }
+
+    .bubble {
+        left: 240px;
+        bottom: 120px;
+        width: 320px;
+        padding: 45px 35px;
+    }
+
+    .welcome-bg-shape {
+        .welcome-first-shape {
+            top: -70px;
+        }
+    }
+
+    .react-date-picker__button__input__input {
+        height: 20px;
+    }
+
+    // ANIMATED BUTTON
+    // .pb-container > .pb-button:not(.site-btn--message-send) {
+    //     bottom: calc(100% + 16px);
+    //     padding-right: 15px;
+    //     padding-left: 10px;
+    // }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1200px) {
+    .welcome-bg-shape {
+        .welcome-first-shape {
+            top: -50px;
+        }
+    }
+
+    .form-log-in {
+        margin-bottom: 100px;
+    }
+
+    .z-depth-0 {
+        max-width: 250px;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .logo {
+        top: 10px;
+        left: 20px;
+        height: 90px;
+    }
+
+    .welcome-mobile-device {
+        position: relative;
+        right: 100px;
+        bottom: 0;
+    }
+
+    .phone-first {
+        display: none;
+    }
+
+    .t-title-big {
+        margin-top: .1em;
+        font-size: 45px;
+    }
+
+    .first-section {
+        padding-top: 50px !important;
+    }
+
+    .navbar .nav-item a {
+        padding: 4px 7px;
+        font-size: 11px;
+    }
+
+    .navbar .nav-item .nav-item--logo {
+        width: 100px;
+    }
+
+    .checbox-text {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .welcome-bg-shape .welcome-first-shape {
+        top: -30px;
+    }
+
+    .logo {
+        top: 10px;
+        left: 20px;
+        height: 80px;
+    }
+
+    .app-download-area {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .page-footer {
+        .container {
+            max-width: 999px;
+        }
+    }
+
+    .navbar.scrolling-navbar {
+        padding-top: 0;
+    }
+
+    .p-password-info {
+        padding: 20px 0 !important;
+    }
+
+    .no-scroll {
+        position: relative;
+    }
+    .accordion__title {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .reg-img-1 {
+        margin-right: -140px;
+    }
+    .z-depth-0 {
+        margin-top: 50%;
+        max-width: 150px;
+    }
+
+    .couples-hld .couples-list__card-item {
+        min-width: calc(50% - 20px);
+    }
+}
+
+
+
+@media all and (max-width: 840px) {
+    .logo {
+        top: 12px;
+        left: 20px;
+        height: 60px;
+    }
+
+    .navbar {
+        height: 90px;
+    }
+
+    .first-section {
+        padding-top: 20px !important;
+    }
+    .welcome-mobile-device {
+        display: none !important;
+    }
+
+    .content-panel__text {
+        font-size: 13px !important;
+    }
+}
+
+
+@media all and (max-width: 800px) {
+    .rcw-widget-container.rcw-opened {
+        height: calc(100vh - 70px);
+    }
+    .rcw-conversation-container .rcw-close-button {
+        background: $c-accent-4;
+    }
+
+    .couples-hld .couples-list__card-item {
+        min-width: calc(100% - 20px);
+    }
+    
+}
+
+
+
+// MOBILE
+
+@media all and (max-width: 768px) {
+
+    .app-sidebar--profile {
+        display: block;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .app-content {
+        height: auto;
+    }
+
+    .welcome-bg-shape {
+        display: none;
+    }
+
+    .navbar.scrolling-navbar {
+        background: $c-accent-1;
+    }
+
+    .logo {
+        position: fixed;
+        top: 13px;
+        left: 20px;
+        z-index: 999;
+    }
+
+    .mr-auto, .mx-auto {
+        display: none;
+    }
+
+    .navbar .nav-item a {
+        text-align: center;
+    }
+
+    .app-download-area--footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .page-footer {
+        .col-md-3 {
+            margin-bottom: 20px;
+        }
+    }
+
+    .form-log-in {
+        margin-bottom: 90px;
+    }
+
+    .p-password-info {
+        margin-top: 10px;
+    }
+
+    .site-btn--search {
+        right: 0;
+        top: 0;
+        left: 0;
+        height: 60px !important;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 8px 10px 10px 50px !important;
+        border-radius: 10em !important;
+        animation: none;
+
+    }
+    .site-btn--search label {
+        font-size: 11px !important; 
+        text-align: left;
+    }
+    .site-btn--search .switch {
+        top: 8px;
+        left: 10px;
+    }
+
+    .site-btn--search input:checked + .slider:before {
+        transform: translateX(19px);
+    }
+
+    .site-btn--search .switch-searching input + .slider:before {
+        transform: translateX(0px);
+    }
+
+    .col-md-3.site-btn--search {
+        flex: 0 0 15%;
+        max-width: 15%;
+        min-width: 180px;
+    }
+
+    // HAMBURGER MENU
+    .bm-burger-button {
+        display: block;
+    }
+
+    .header-img-off .l-section-app {
+        margin-right: 0;
+    }
+
+    .off-768 {
+        display: none;
+    }
+    .on-768 {
+        display: block;
+    }
+
+    .app-content {
+        display: block !important;
+    }
+
+    .rcw-widget-container.rcw-opened {
+        margin-bottom: 1px;
+        margin-right: -23px;
+    }
+
+    button {
+        height: 40px !important;
+    }
+
+    .site-btn--logout {
+        margin: .7em 0 8em;
+        padding: 10px 25px 10px;
+        .navbar & {
+            display: none;
+        }
+    }
+
+    .site-btn--iconed {
+        padding-left: 20px;
+    }
+    .site-btn {
+        padding: 10px 20px;
+    }
+
+    input, select, textarea {
+        min-width: 200px;
+        padding: 11px 15px;
+    }
+    .form-log-in,
+    .form-register {
+        input, select, textarea {
+            &:not(.react-date-picker__button__input__input) {
+                min-width: 240px;
+            }
+        }
+        input[type="checkbox"], input[type="radio"] {
+            min-width: 15px;
+        }
+    }
+
+    input, select {
+        height: 46px;
+    }
+
+    .reg-img-1 {
+        margin-top: 80px;
+        margin-right: 0;
+    }
+
+    .t-title-gray {
+        margin-bottom: 20px;
+    }
+
+    .form-register {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        button {
+            height: 46px !important;
+        }
+        input, select, button {
+            margin: 15px 0 0;
+        }
+        .react-date-picker__button {
+            width: 100%;
+            height: 46px;
+            margin: 15px 0 0;
+        }
+        input.input__sex-change {
+            margin-top: 15px;
+        }
+    }
+
+    .login-info-hld {
+        top: 34px;
+        left: -25px;
+    }
+
+    .z-depth-0 {
+        margin-top: 10%;
+        margin-bottom: 20%;
+        max-width: 250px;
+    }
+
+
+    .col-md-3.app-sidebar--profile {
+        flex: 0 0 calc(100% + 45px);
+        max-width: calc(100% + 45px);
+        .content-left-hld {
+        }
+    }
+
+    .navbar-expand-md .navbar-nav {
+        display: none;
+    }
+
+    .app-sidebar--profile {
+        overflow-y: scroll;
+    }
+
+    .bubble {
+        top: 100px;
+        right: 0;
+        left: 0;
+        bottom: auto;
+        margin: auto;
+        box-shadow: 0 5px 23px 0 rgba(0, 0, 0, 0.2), 0 10px 55px 0 rgba(0, 0, 0, 0.25);
+        &:after {
+            bottom: calc(100% + 5px);
+            transform: rotate(45deg);
+        }
+    }
+    .rcw-widget-container.rcw-opened {
+        z-index: 9999;
+    }
+
+    .rcw-conversation-container .avatar {
+        width: 20px;
+        height: 20px;
+        vertical-align: text-top;
+    }
+    .rcw-client, .rcw-response {
+        padding: 10px;
+    }
+
+    .alert { 
+        bottom: -10px;
+    }
+
+    // SEARCH BUTTON DOTS
+
+    .loading-dots {
+        &--dot {
+        height: 2px;
+        width: 2px;
+        margin: 0 1px;
+            &:nth-child(1) {
+                margin-left: 2px;
+            }
+        }
+    }
+
+    .content-on-login__img-button {
+        height: 90px;
+        margin-right: 10px;
+    }
+    
+    .content-on-login__img-2 {
+        height: 180px;
+    }
+    
+    .content-on-login__img-3 {
+        height: 150px;
+    }
+    
+    .content-on-login__img-4 {
+        height: 150px;
+    }
+}
+
+
+
+
+@media all and (max-width: 470px) {
+    .t-title-big {
+        font-size: 30px;
+    }
+
+    .form-log-in {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        input, select {
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .site-btn--log-in {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            float: none;
+        }
+    }
+
+    .btn-app-download a {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .checbox-text {
+        margin-left: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin: 0.67em 0;
+    }
+    .first-section {
+        padding-top: 0px !important;
+    }
+
+    .t-title-big,
+    .t-title-gray {
+        text-align: center;
+    }
+    .checbox-text {
+        text-align: center;
+    }
+    .form-check {
+        padding-top: 10px;
+    }
+
+    .pl-5, .px-5 {
+        padding-left: 0.5rem!important;
+    }
+    
+    .pr-5, .px-5 {
+        padding-right: 0.5rem!important;
+    }
+
+    .p-password-info {
+        padding: 20px !important;
+    }
+
+    .react-date-picker__calendar {
+        left: -25px;
+        width: calc(100% + 50px);
+    }
+    button.react-calendar__tile {
+        height: 45px !important;
+    }
+    
+    .react-date-picker__button {
+        padding-top: 9px;
+    }
+    .react-date-picker input, 
+    .react-date-picker select, 
+    button.react-calendar__tile {
+        margin: 0;
+    }
+
+    .site-btn--search .switch {
+        left: 2%;
+    }
+    .form-register input[type="checkbox"] {
+        margin-top: 11px;
+        margin-left: -20px;
+    }
+
+    .container-chat-hld {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content-on-login__img-button {
+        height: 70px;
+        margin-right: 10px;
+    }
+    
+    .content-on-login__img-2 {
+        height: 150px;
+    }
+    
+    .content-on-login__img-3 {
+        height: 120px;
+    }
+    
+    .content-on-login__img-4 {
+        height: 120px;
+    }
+}
+
+
+
+
+
+////////////////////////////
+/// HEIGHT RWD
+////////////////////////////
+
+@media all and (max-height: 1024px) {
+    .app-no-scroll {
+        overflow-y: auto;
+    }
+}
+

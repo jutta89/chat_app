@@ -1,0 +1,45 @@
+/* ------------------------------------------------- */
+// SLIDE
+/* ------------------------------------------------- */
+
+.noUi-horizontal .noUi-handle {
+    top: -7px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border-color: $c-accent-1;
+    background: $c-accent-1;
+    box-shadow: none;
+    cursor: grab;
+    &:before,
+    &:after {
+        display: none;
+    }
+    &.noUi-active {
+        cursor: grabbing;
+    }
+}
+
+.noUi-connects {
+    border-radius: 1px;
+}
+
+.noUi-connect {
+    background: $c-accent-1;
+}
+
+.noUi-target {
+    margin-bottom: 10px;
+    background: #E2E2E2;
+    border-radius: 2px;
+    border: 1px solid #E2E2E2;
+    // box-shadow: none;
+}
+
+.noUi-horizontal {
+    height: 5px;
+}
+
+.noUi-connect, .noUi-origin {
+    left: 5px;
+}
